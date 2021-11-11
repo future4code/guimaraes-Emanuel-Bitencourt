@@ -1,0 +1,98 @@
+[33mcommit 752688b9a8194ddca3530d60bc1c1972f26cc227[m[33m ([m[1;36mHEAD -> [m[1;32mvariaveis[m[33m)[m
+Author: emanuel433 <emanuelaraujo30@yahoo.com.br>
+Date:   Tue Nov 9 18:31:21 2021 -0300
+
+    Adicionando os arquivos index e js
+
+[33mcommit ed452d573ac32e82d1d49c48c5d29350b43788d0[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 7270b1e 75cae8f
+Author: emanuel433 <93010720+emanuel433@users.noreply.github.com>
+Date:   Tue Nov 9 18:00:10 2021 -0300
+
+    Merge pull request #3 from future4code/git-3
+    
+    Filmes
+
+[33mcommit 7270b1ead93a7d7492d72b9cb15513e20d1a8ddb[m
+Merge: 651f987 e940859
+Author: emanuel433 <93010720+emanuel433@users.noreply.github.com>
+Date:   Tue Nov 9 17:59:55 2021 -0300
+
+    Merge pull request #2 from future4code/git-2
+    
+    Musicas
+
+[33mcommit 651f9877feb21415d29a55c560fbe66bd4284f8e[m
+Merge: 5ba8ce2 4e2e263
+Author: emanuel433 <93010720+emanuel433@users.noreply.github.com>
+Date:   Tue Nov 9 17:59:45 2021 -0300
+
+    Merge pull request #1 from future4code/git-1
+    
+    minha primeira apresentacao
+
+[33mcommit 5ba8ce25e62272c9b54e5448d83ab6f0cc8492eb[m
+Merge: 146249f 567386b
+Author: emanuel433 <93010720+emanuel433@users.noreply.github.com>
+Date:   Tue Nov 9 17:59:35 2021 -0300
+
+    Merge pull request #4 from future4code/git-4
+    
+    Comida
+
+[33mcommit 146249fb8c75a04e03e8e1f064bfd73f4f959ca2[m
+Merge: b5904de bbfa2a4
+Author: emanuel433 <93010720+emanuel433@users.noreply.github.com>
+Date:   Tue Nov 9 17:58:27 2021 -0300
+
+    Merge pull request #5 from future4code/git-5
+    
+    Rede sociais
+
+[33mcommit bbfa2a4cb7ef49d102d6253c832fe606365d4892[m[33m ([m[1;31morigin/git-5[m[33m, [m[1;32mgit-5[m[33m)[m
+Author: emanuel433 <emanuelaraujo30@yahoo.com.br>
+Date:   Sat Nov 6 00:00:45 2021 -0300
+
+    Rede sociais
+
+[33mcommit 567386b006a8d87b8a6d99e91c8d10a55956ca85[m[33m ([m[1;31morigin/git-4[m[33m, [m[1;32mgit-4[m[33m)[m
+Author: emanuel433 <emanuelaraujo30@yahoo.com.br>
+Date:   Fri Nov 5 23:55:22 2021 -0300
+
+    Comida
+
+[33mcommit e940859636df208c19b8a0ee35068b871fc230f4[m[33m ([m[1;31morigin/git-2[m[33m)[m
+Author: emanuel433 <93010720+emanuel433@users.noreply.github.com>
+Date:   Fri Nov 5 23:50:15 2021 -0300
+
+    Delete minha-bio.txt
+
+[33mcommit 75cae8f53bf58be64a97a62fbf605e3b2bea2421[m[33m ([m[1;31morigin/git-3[m[33m, [m[1;32mgit-3[m[33m)[m
+Author: emanuel433 <emanuelaraujo30@yahoo.com.br>
+Date:   Fri Nov 5 23:47:32 2021 -0300
+
+    Filmes
+
+[33mcommit e8d0ada2ca8db315a50e6ca0eb9eb0d28bf5b4a9[m[33m ([m[1;32mgit-2[m[33m)[m
+Author: emanuel433 <emanuelaraujo30@yahoo.com.br>
+Date:   Fri Nov 5 23:36:26 2021 -0300
+
+    Musica
+
+[33mcommit 46877df030d7ecc8d00cf254db8168bc04dfe6f9[m
+Author: emanuel433 <emanuelaraujo30@yahoo.com.br>
+Date:   Fri Nov 5 23:33:24 2021 -0300
+
+    Musicas
+
+[33mcommit 4e2e263243b00de16f171589a76fa2b190839c6b[m[33m ([m[1;31morigin/git-1[m[33m, [m[1;32mgit-1[m[33m)[m
+Author: emanuel433 <emanuelaraujo30@yahoo.com.br>
+Date:   Fri Nov 5 18:37:36 2021 -0300
+
+    minha primeira apresentacao
+
+[33mcommit b5904de39944bfeb8076ba1fcf8a4c5c8912577e[m
+Author: João Vinicius Alves <jvp.alves@hotmail.com>
+Date:   Wed Oct 27 18:25:27 2021 -0300
+
+    Initial commit
