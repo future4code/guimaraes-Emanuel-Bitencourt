@@ -51,5 +51,14 @@ b = a
 a = c
 console.log(a,'= A',b,'= B')
 
+let a = 10;
+let b = 20
+let c = -10;
+let d = 15;
 
+// operadores
+
+let soma = a + b;
+let subtracao = a - b
+let 
 
