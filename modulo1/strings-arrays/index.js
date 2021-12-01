@@ -23,7 +23,7 @@
         console.log('f. ', valor)  // O console retornou o valor 9 */  
 
 
- Questão 2
+// Questão 2
 const frase = prompt("Digite uma frase")
 console.log(frase.toLocaleUpperCase().replaceAll("A", "I"),frase.length) // nessa questão o console com a frase "Subi num onibus em Marrocos " retornará "Subi num onibus em Mirrocos"*/
 
@@ -31,7 +31,7 @@ console.log(frase.toLocaleUpperCase().replaceAll("A", "I"),frase.length) // ness
 
 let nome = prompt("Qual o seu nome?")
 let email = prompt("Qual seu email?")
-const frase = console.log(`O e-mail ${email} foi cadastrado com sucesso, Seja bem-vindo, ${nome}!`)
+const frase1 = console.log(`O e-mail ${email} foi cadastrado com sucesso, Seja bem-vindo, ${nome}!`)
 
 // SEGUNDA QUESTÃO
 
