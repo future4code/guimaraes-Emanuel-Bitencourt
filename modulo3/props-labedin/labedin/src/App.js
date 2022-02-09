@@ -3,6 +3,7 @@ import './App.css';
 import CardGrande from './components/CardGrande/CardGrande';
 import ImagemButton from './components/ImagemButton/ImagemButton';
 import CardPequeno from './components/CardPequeno/CardPequeno';
+import imagem from './src/img/emanuel.png'
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
       <div className="page-section-container">
         <h2>Dados pessoais</h2>
         <CardGrande 
-          imagem=" C:\Users\Juliana\Documents\laBeNu\Setup\PastaGitHub\guimaraes-Emanuel-Bitencourt\modulo3\emanuel.png" 
+          imagem=""
           nome="Emanuel" 
           descricao="Oi, eu sou o Emanuel. Sou um dos alunos da Labenu, precisamente da turma Gumarães. Estou lutando arduamente para me tornar programador e sei que vou conseguir apesar do desafio ser grande."
         />
