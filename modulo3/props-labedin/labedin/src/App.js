@@ -40,7 +40,7 @@ function App() {
         <CardGrande 
           imagem="https://imagens.canaltech.com.br/empresas/4418.400.jpg" 
           nome="NASA" 
-          descricao="Apontando defeitos." 
+          descricao="Ao infinito e além!" 
         />
       </div>
 
