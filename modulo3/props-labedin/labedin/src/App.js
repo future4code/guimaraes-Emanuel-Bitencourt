@@ -3,7 +3,7 @@ import './App.css';
 import CardGrande from './components/CardGrande/CardGrande';
 import ImagemButton from './components/ImagemButton/ImagemButton';
 import CardPequeno from './components/CardPequeno/CardPequeno';
-import imagem from './src/img/emanuel.png'
+import MinhaImagem from './img/emanuel.png'
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <div className="page-section-container">
         <h2>Dados pessoais</h2>
         <CardGrande 
-          imagem=""
+          imagem={MinhaImagem}
           nome="Emanuel" 
           descricao="Oi, eu sou o Emanuel. Sou um dos alunos da Labenu, precisamente da turma Gumarães. Estou lutando arduamente para me tornar programador e sei que vou conseguir apesar do desafio ser grande."
         />
@@ -22,8 +22,8 @@ function App() {
         />
 
         <CardPequeno
-        imagem="https://www.pngplay.com/pt/image/119080/png-download/119079"
-        texto="email emanuel@vamosjuntos"
+           imagem="https://www.imagensempng.com.br/caixa-email-png/"
+           texto="email emanuel@vamosjuntos"
         />
         
         
