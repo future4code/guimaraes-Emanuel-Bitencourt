@@ -1,5 +1,5 @@
 import React from 'react';
-import './CardPequeno.js'
+
 
 function CardPequeno(props) {
     return (
