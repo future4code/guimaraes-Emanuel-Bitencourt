@@ -1,7 +1,12 @@
 import React from 'react';
-import './App.css';
+import styled from 'styled-components'
 import CardGrande from './components/CardGrande/CardGrande';
 import ImagemButton from './components/ImagemButton/ImagemButton';
+import CardPequeno from './components/CardPequeno/CardPequeno';
+import MinhaImagem from './img/emanuel.jpg'
+import Labenu from './img/labenu.png'
+import Movistar from './img/movistar.png'
+import ImagemEmail from './img/email.png'
 
 function App() {
   return (
@@ -9,9 +14,9 @@ function App() {
       <div className="page-section-container">
         <h2>Dados pessoais</h2>
         <CardGrande 
-          imagem="https://uploads-ssl.webflow.com/5d640f4558306be99cf47a0e/5dd57846babb597b77c6bb1d_PerfilFuture4_cor.png" 
-          nome="Astrodev" 
-          descricao="Oi, eu sou o Astrodev. Sou o chefe dos alunos da Labenu. Adoro pedir e-mails na sexta-feira e esperar os alunos responderem só para responder com uma bronca e dar mais trabalho para eles."
+          imagem={MinhaImagem} 
+          nome="Emanuel" 
+          descricao="Meu nome é Emanuel! Sou aluno da labenu e me tornarei um desenvolvedor FullStack, com muita luta e sacrifício, mas chegarei lá"
         />
         
         <ImagemButton 
@@ -21,19 +26,28 @@ function App() {
       </div>
 
       <div className="page-section-container">
-        <h2>Experiências profissionais</h2>
-        <CardGrande 
-          imagem="https://s3.amazonaws.com/future4.com.br/static/headf4-c492117ca2373dc85ca81bf715b3dc2a.png" 
-          nome="Labenu" 
-          descricao="Formando desenvolvedores para o mercado de trabalho!" 
-        />
-        
-        <CardGrande 
-          imagem="https://imagens.canaltech.com.br/empresas/4418.400.jpg" 
-          nome="NASA" 
-          descricao="Apontando defeitos." 
+        <CardPequeno
+        imagem={ImagemEmail}
+        texto="emanuel@nasa.com"
+        endereco="Rua Planeta Terra"
         />
       </div>
+
+      <div className="page-section-container">
+        <h2>Experiências profissionais</h2>
+        <CardGrande 
+          imagem={Labenu}
+          nome="Labenu" 
+          descricao="Em processo de formação e feliz por fazer parte do corpo discente, pois apesar de ser cobrado,sou muito bem amparado." 
+        />
+      
+        <CardGrande 
+          imagem={Movistar} 
+          nome="Movistar" 
+          descricao="Ciclista amador e torcedor da equipe, fã do grande Alejandro Valverde da equipe Movistar" 
+        />
+      </div>
+      
 
       <div className="page-section-container">
         <h2>Minhas redes sociais</h2>
@@ -41,6 +55,7 @@ function App() {
           imagem="https://d2v9ipibika81v.cloudfront.net/uploads/sites/261/2017/01/facebook-logo-3.png" 
           texto="Facebook" 
         />        
+      
 
         <ImagemButton 
           imagem="https://logodownload.org/wp-content/uploads/2014/09/twitter-logo-1-1.png" 
