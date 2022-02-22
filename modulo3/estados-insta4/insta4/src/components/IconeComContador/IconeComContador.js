@@ -8,9 +8,15 @@ const IconImage = styled.img`
 		margin-right: 5px;
 `
 
-export function IconeContador(props) {
-		return <IconContainer>
-				<IconImage alt={'Icone'} src={props.icone} onClick={props.onClickIcone}/>
-				<p>{props.valorContador}</p>
+export class IconeContador extends component {
+	render(){
+		return(
+		 <IconContainer>
+			<IconImage alt={'Icone'} src={props.icone} onClick={props.onClickIcone}/>
+			<p>{props.valorContador}</p>
 		</IconContainer>
+		);
+	}
 }
+
+export default IconeContador;
