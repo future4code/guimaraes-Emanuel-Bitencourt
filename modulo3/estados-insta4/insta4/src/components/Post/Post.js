@@ -49,19 +49,9 @@ class Post extends React.Component {
   }
 
   onClickCurtida = () => {
-    let novasCurtidas
-    if(this.state.curtido){
-      novasCurtidas = this.state.numeroCurtidas -1
-    } else{
-      novasCurtidas = this.state.numeroCurtidas +1
-    }
-    this.setState({
-      curtido: !this.state.curtido,
-      numeroCurtidas: novasCurtidas
-    })
+    console.log('Curtiu!')
+    ??????: !this.state.curtido
   }
-  
-
 
   onClickComentario = () => {
     this.setState({
@@ -117,4 +107,4 @@ class Post extends React.Component {
   }
 }
 
-export default Post;
+export default Post
