@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components'
 import Post from './components/Post/Post';
-import IconeComtador  from './components/IconeComContador/IconeComContador';
+import {IconeComContador}  from './components/IconeComContador/IconeComContador';
 
 const MainContainer = styled.div`
   display: flex;
