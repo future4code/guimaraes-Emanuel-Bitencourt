@@ -3,16 +3,36 @@ import styled from "styled-components";
 
 
 class Etapa1 extends React.Component {
+    state={
+        valorNome:'',
+        valorIdade:'',
+        valorEmail:'',
+        valorEscolaridade:''
+    }
+
+    onChangeNome = (event) =>{
+        this.setState({valorNome: event.target.value})
+    }
+    onChangeIdade = (event) =>{
+        this.setState({valorIdade: event.target.value})
+    }
+    onChangeEmail = (event) =>{
+        this.setState({valorEmail: event.target.value})
+    }
+    onChangeEscolaridade = (event) =>{
+        this.setState({valorEscolaridade: event.target.value})
+    } 
+
     render(){
         return(
             <DivEtapa1>
                 <h3> ETAPA 1 DADOS GERAIS </h3>
                 <h4> 1. Qual o seu nome?</h4>
-                <input type= placeholder></input>
+                <input name= {'nome'} onChange={this.onChangeNome} value={this.state.valorNome} />
                 <h4> 2. Qual a sua idade?</h4>
-                <input type='text' placeholder></input>
+                <input name={'idade'} onChange={this.onChangeIdade} value={this.state.valorIdade} />
                 <h4> 3. Qual seu email?</h4>
-                <input type='text' placeholder></input>
+                <input name={'email'} onChange={this.onChangeEmail} value={this.state.valorEmail}/>
                 <h4>4. Qual a sua escolaridade?</h4>
                 
                 <select>

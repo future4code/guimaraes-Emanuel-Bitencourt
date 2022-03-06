@@ -3,6 +3,15 @@ import styled from 'styled-components';
 
 
 class Etapa2 extends React.Component {
+    state={
+        opcaoCurso:'',
+        unidadeEnsino:''
+    }
+onChangeCurso = (event) => {
+    this.setState({opcaoCurso:event.target.value})
+}
+
+
     render() {
         return(
             <DivEtapa2>
