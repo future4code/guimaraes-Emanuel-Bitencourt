@@ -1,6 +1,19 @@
 import  React from "react ";
 import styled from "styled-components";
 
+const DivEtapa1 = styled.div`
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+` 
+
+
+const selecao = {[
+    'Ensino médio incompleto',
+    'Ensino médio completo',
+    'Ensino superior incompleto',
+    'Ensino superior completo'
+]};
 
 class Etapa1 extends React.Component {
     state={
@@ -23,6 +36,10 @@ class Etapa1 extends React.Component {
         this.setState({valorEscolaridade: event.target.value})
     } 
 
+    state={
+
+    }
+
     render(){
         return(
             <DivEtapa1>
@@ -35,12 +52,10 @@ class Etapa1 extends React.Component {
                 <input name={'email'} onChange={this.onChangeEmail} value={this.state.valorEmail}/>
                 <h4>4. Qual a sua escolaridade?</h4>
                 
-                <select>
-                    <option value='opcao1'>Ensino Médio Incompleto</option>
-                    <option value='opcao2'>Ensino Médio Completo</option>
-                    <option value='opcao3'>Ensino Superior Incompleto</option>
-                    <option value='opacao4'>Ensino Superior Completo</option>   
-                </select>
+                <selecao>
+                    <p>{this.state.selecao}</p>
+                </selecao>
+
             </DivEtapa1>
         )
     }
