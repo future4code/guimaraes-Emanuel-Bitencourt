@@ -52,9 +52,9 @@ class Post extends React.Component {
     let novoNumeroCurtidas;
 
     if (this.state.curtido) {
-      novoNumeroCurtidas = this.state.numeroCurtidas - 1;
+      novoNumeroCurtidas = this.state.numeroCurtidas + 1;
     } else {
-      novoNumeroCurtidas = this.state.novoNumeroCurtidas + 1;
+      novoNumeroCurtidas = this.state.novoNumeroCurtidas - 1;
     }
     this.setState({
       curtido: !this.state.curtido,
@@ -105,7 +105,7 @@ class Post extends React.Component {
           <IconeComContador
             icone={iconeCurtida}
             onClickIcone={this.onClickCurtida}
-            valorContador={this.state.numeroCurtidas}
+            valorContador={this.state.novoNumeroCurtidas}
           />
 
           <IconeComContador
