@@ -3,9 +3,9 @@ import axios from 'axios';
 import React, { Component } from 'react';
 import PaginaUser from './paginaUsers';
 
-const requestCadastro = axios.get('https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users', {
+const requestCadastro = axios.get(', {
     headers: {
-        Authorization: 'anderson-franciscato-guimaraes' }
+        Authorization: '' }
         })
 
 class Cadastro extends Component {
@@ -29,9 +29,9 @@ class Cadastro extends Component {
       name: this.state.nameImput,
       email: this.state.emailImput,
   }
-  axios.post('https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users', body, {
+  axios.post('', body, {
       headers: {
-          Authorization: 'anderson-franciscato-guimaraes'
+          Authorization: ''
       }
   })
   .then(response => {

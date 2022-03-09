@@ -6,9 +6,9 @@ class Cadastro extends React.Component {
         usuarios: []
     }
     deletarUsuario = (usuarioId) => {
-        axios.delete(https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users/${usuarioId}, {
+        axios.delete(https: {
             headers: {
-                Authorization: "anderson-franciscato-guimaraes"
+                Authorization: ""
             }
         })
             .then(response => {
@@ -23,9 +23,9 @@ class Cadastro extends React.Component {
     }
 
     componentDidMount() {
-        axios.get("https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users", {
+        axios.get("", {
             headers: {
-                Authorization: "anderson-franciscato-guimaraes"
+                Authorization: "s"
             }
         })
             .then(response => {
@@ -38,9 +38,9 @@ class Cadastro extends React.Component {
             })
     }
 mostrarUsuarios = () => {
-        axios.get('https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users', {
+        axios.get('', {
             headers: {
-                Authorization: "anderson-franciscato-guimaraes"
+                Authorization: ""
             }
         })
         const usuarios = this.state.usuarios.map(usuario => {
@@ -65,4 +65,4 @@ mostrarUsuarios = () => {
         );
     }
 }
-export default Cadastro;
+export default ;
